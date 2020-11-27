@@ -1,0 +1,11 @@
+welcome to bank mangement system
+
+available customer are
+pooh
+13/11/19
+female
+3456
+7889
+tui
+1700170056
+4.5

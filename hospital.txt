@@ -1,0 +1,39 @@
+WELCOME TO HOSPITAL MANAGEMENT
+
+patients admitted are
+ram
+shyam
+sita
+gita
+hari
+joey
+dromey
+bhoem
+lisa
+muskan
+patients of department 1 are:
+ram
+sita
+gita
+muskan
+patients of department 2 are:
+joey
+dromey
+bhoem
+patients of department 3 are:
+lisa
+hari
+shyam
+various disease of eye are:
+astigatism
+colourblindness
+corneadamage
+irisdamage
+various disease of dental are:
+cavities
+oralcancer
+sensitiveteeth
+various disease of heart are:
+heartattack
+highbp
+arrhythmia

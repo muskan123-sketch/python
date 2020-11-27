@@ -1,0 +1,109 @@
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:flutter/widgets.dart';
+
+void main() {
+  runApp(
+      MYAPP()
+  );
+}
+
+class MYAPP extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.teal,
+        body: SafeArea(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: <Widget>[
+                CircleAvatar(
+                  radius: 50.0,
+                  backgroundImage: AssetImage('images/IMG_20190815_081407.jpg'),
+                ),
+                Text(
+                  'MUSKAN MALVIYA',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 30.0,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+
+                  ),
+                ),
+                Text(
+                  'COMMERCIA',
+                  style: TextStyle(
+                    fontFamily: 'Pacifico',
+                    fontSize: 20.0,
+                    color: Colors.white,
+                    letterSpacing: 2.5,
+                    fontWeight: FontWeight.bold,
+
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.all(10.0),
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(
+                      vertical: 10.0, horizontal: 25.0),
+
+
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.phone,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width:10.0
+                      ),
+                      Text(
+                        '9340522734',
+                        style: TextStyle(
+                          fontFamily: 'Pacifico',
+                          fontSize: 20.0,
+                          color: Colors.teal,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.all(10.0),
+                  color: Colors.white,
+                  margin: EdgeInsets.symmetric(
+                      vertical: 10.0, horizontal: 25.0),
+
+
+                  child: Row(
+                    children: <Widget>[
+                      Icon(
+                        Icons.email,
+                        color: Colors.teal,
+                      ),
+                      SizedBox(
+                        width:10.0
+                      ),
+                      Text(
+                        'malviyamuskan16@gmail.com',
+                        style: TextStyle(
+                          fontFamily: 'Pacifico',
+                          fontSize: 20.0,
+                          color: Colors.teal,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+
+
+              ],
+            )),),);
+  }
+}
+
